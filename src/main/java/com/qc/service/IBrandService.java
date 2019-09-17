@@ -33,4 +33,29 @@ public interface IBrandService {
      * @return
      */
     BaseQueryResult<Brand> getBrandByCondition(GetBrandRequest request);
+
+    /**
+     * 新增品牌
+     * @param brand
+     */
+    void saveBrand(Brand brand);
+
+    /**
+     * 根据id获取品牌信息
+     * @param brandId
+     * @return
+     */
+    Brand getBrandById(Integer brandId);
+
+    /**
+     * 更新品牌
+     * @param brand
+     */
+    void updateBrand(Brand brand);
+
+    /**
+     * 根据id删除品牌
+     * @param brandId
+     */
+    void deleteBrandById(Integer brandId);
 }

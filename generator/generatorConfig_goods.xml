@@ -36,7 +36,7 @@
                             targetProject="../src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaModelGenerator>
-        
+
 		<javaExampleGenerator targetPackage="com.qc.example.goods"
 							  targetProject="../src/main/java">
 			<property name="enableSubPackages" value="true" />
@@ -67,7 +67,62 @@
 
 
 
-        <table tableName="tb_brand" domainObjectName="Brand"
+<!--        <table tableName="tb_brand" domainObjectName="Brand"-->
+<!--               enableCountByExample="true"-->
+<!--               enableUpdateByExample="true"-->
+<!--               enableDeleteByExample="true"-->
+<!--               enableSelectByExample="true"-->
+<!--               selectByExampleQueryId="false">-->
+<!--            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+<!--        </table>-->
+
+<!--        <table tableName="tb_template" domainObjectName="Template"-->
+<!--               enableCountByExample="true"-->
+<!--               enableUpdateByExample="true"-->
+<!--               enableDeleteByExample="true"-->
+<!--               enableSelectByExample="true"-->
+<!--               selectByExampleQueryId="false">-->
+<!--            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+<!--        </table>-->
+
+<!--        <table tableName="tb_spec" domainObjectName="Spec"-->
+<!--               enableCountByExample="true"-->
+<!--               enableUpdateByExample="true"-->
+<!--               enableDeleteByExample="true"-->
+<!--               enableSelectByExample="true"-->
+<!--               selectByExampleQueryId="false">-->
+<!--            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+<!--        </table>-->
+
+<!--        <table tableName="tb_para" domainObjectName="Para"-->
+<!--               enableCountByExample="true"-->
+<!--               enableUpdateByExample="true"-->
+<!--               enableDeleteByExample="true"-->
+<!--               enableSelectByExample="true"-->
+<!--               selectByExampleQueryId="false">-->
+<!--            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+<!--        </table>-->
+
+<!--        <table tableName="tb_category" domainObjectName="Category"-->
+<!--               enableCountByExample="true"-->
+<!--               enableUpdateByExample="true"-->
+<!--               enableDeleteByExample="true"-->
+<!--               enableSelectByExample="true"-->
+<!--               selectByExampleQueryId="false">-->
+<!--            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+<!--        </table>-->
+
+
+        <table tableName="tb_sku" domainObjectName="Sku"
+               enableCountByExample="true"
+               enableUpdateByExample="true"
+               enableDeleteByExample="true"
+               enableSelectByExample="true"
+               selectByExampleQueryId="false">
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+
+        <table tableName="tb_spu" domainObjectName="Spu"
                enableCountByExample="true"
                enableUpdateByExample="true"
                enableDeleteByExample="true"
